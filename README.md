@@ -18,23 +18,24 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/plumbing-services.git
-   Navigate to the project directory:
-bashCopycd plumbing-services
+   git clone https://github.com/yourusername/test-app.git
+2.Navigate to the project directory:
+   bashCopy cd test-app
 
-Install the dependencies:
-bashCopynpm install
+3.Install the dependencies:
+   bashCopy npm install
 
-Start the development server:
-bashCopynpm run dev
+4.Start the development server:
+   bashCopy npm run dev
 This will start the development server and open the application in your default browser.
 
-Deployment
+##Deployment
 To deploy the application to GitHub Pages, follow these steps:
-Run the build command to create the production build:
-bashCopynpm run build
+1.Run the build command to create the production build:
+   bashCopy npm run build
 
-Deploy the application to GitHub Pages:
-bashCopynpm run deploy
-This will publish the build directory to the gh-pages branch of your repository, making the application available at https://yourusername.github.io/plumbing-services.
+##Deploy the application to GitHub Pages:
+bashCopy npm run deploy
+
+This will publish the build directory to the gh-pages branch of your repository, making the application available at https://yourusername.github.io/test-app.
 
